@@ -1,0 +1,694 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* CSS Header */
+.header {
+    width: 100%;
+    height: 120px;
+    
+    
+    
+    background-image: linear-gradient(rgba(100,13,20),rgba(10, 4, 6, 0.842) ), url(../img/biblioteca-pt2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Nombre de la página */
+.navbar_title {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.spanh2 {
+    color: rgba(167, 4, 4, 0.8)
+}
+/* Nombre de la página */
+
+.navbar_list li {
+    margin: 0 20px;
+    
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar_item a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 450px) and (max-width: 599px) {
+    .header{
+        width: 600px;
+    }
+
+    .navbar_title {
+        font-size: 20px;
+    }
+
+    .navbar_list li{
+        font-size: 12px;
+        margin: 0 8px;
+    }
+}
+/* Fin CSS Header  */
+
+/* CSS Main  */
+main p {
+    font-size: 15px;
+}
+/*---- Primera sección ----*/
+.section-one {
+    width: 100%;
+    height: 800px;
+    
+    background-image: linear-gradient(rgba(10, 4, 6, 0.842), rgba(100,13,20) ), url(../img/encabezado.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    color: white;
+}
+
+@media screen and (min-width: 450px) and (max-width: 599px) {
+    .section-one{
+        width: 600px;
+    }
+}
+
+.sectionone-text{
+    width: 90%;
+    margin: auto;
+    
+    color: white;
+    
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    text-align: center;
+}
+
+.linksection1 {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 30px;
+    font-size: 0,5cm;
+    background-color: transparent;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+
+.section-one .sectionone-text h1 {
+    font-size: 1cm;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.pprincipal {
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width: 450px) and (max-width: 599px) {
+    .section-one{
+        width: 600px;
+    }
+
+    .sectionone-text{
+        left: 9%;
+        top: 75%;
+    }
+
+    .section-one .sectionone-text h1{
+        font-size: larger;
+    }
+
+    .pprincipal {
+        font-size: small;
+    }
+
+    .linksection1 {
+        padding: 10px 25px;
+    }
+
+}
+
+
+/* ----Segunda Sección---- */
+.section-two {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.psegundos  {
+    margin-top: 15px;
+}
+
+.articlessection2 {
+    padding: 50px;
+    list-style-type: none;
+    
+    /* GRID  */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    justify-content: space-between;
+}
+
+.articles2 {
+    flex-basis: 31%;
+    background-image: linear-gradient(rgba(10, 4, 6, 0.842), rgba(100,13,20) );
+    border-radius: 10px;
+    padding: 20px 12px;
+    transition: 0.5s;
+}
+
+/*---- Tercera sección ----*/
+.section-three {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 20px;
+}
+
+.imgsection3 {
+    margin-top: 5%;
+    
+    /* GRID */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.article-img3 {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-item {
+    width: 100%;
+    display: block;
+}
+
+.sectionthree_layer {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    transition: 0.5s;
+}
+
+.section-three .sectionthree_layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+/*---- Cuarta sección ----*/
+.section-four {
+    margin: 200px auto;
+    padding: 300px;
+    width: 80%;
+    text-align: center;
+
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../img/section4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.section-four h2{
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.section-four a {
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Fin del Main  */
+
+/* Comienzo del Footer  */
+footer {
+    width: 80%;
+    text-align: center;
+    padding: 30px 0;
+    margin: auto;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.imgsection-footer {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.contacto {
+    text-decoration: none;
+        
+    font-size: large;
+    font-weight: 600;
+    color: #dd3636;
+    border: 1px solid #dd3636;
+    padding: 7px;
+}
+
+.social {
+    font-size: x-large;
+    align-items: center;
+    padding-top: 10px;
+}
+
+/* CSS de About.html */
+.header-about {
+    width: 100%;
+    height: 500px;
+
+    background-image:linear-gradient(rgba(10, 4, 6, 0.842), rgba(100,13,20) ), url(../img/header-about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-about {
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.main-about .main-div p {
+    color: #999;
+    padding: 0;
+    text-align: left;
+    
+    font-size: large;
+    font-weight: 500;
+}
+
+.main-about .main-div h2 {
+    color: #222;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+/* CSS de Content.html  */
+.header-content {
+    width: 100%;
+    height: 500px;
+
+    background-image:linear-gradient(rgba(10, 4, 6, 0.842), rgba(100,13,20) ), url(../img/header-content.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-section {
+    width: 85%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.content-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 60px;
+    margin: auto;
+}
+
+.content-section .content-div .content-left {
+    grid-column: 1/3;
+}
+
+.content-section .content-div .content-left h2{
+    color: #222;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.content-section .content-div .content-left p {
+    color: #999;
+    padding: 0;
+    text-align: left;
+    
+    font-size: large;
+    font-weight: 500;
+}
+
+.box-comment {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.form-comment {
+    margin: 20px 0px;
+}
+
+.content-section .content-div .content-left .box-comment .form-comment input {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0px 15px 0px;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    resize: none;
+}
+
+.content-section .content-div .content-left .box-comment .form-comment textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 0px 15px 0px;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    resize: none;
+}
+
+.content-section .content-div .content-left .box-comment .form-comment button {
+    margin: 10px 0;
+    color: #f44336;
+    border: 1px solid #f44336;
+    display: inline-block;
+
+    padding: 12px 34px;
+    font-size: 0.8rem;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.content-section .content-div .content-right h3{
+    background-color: #f44336;
+    color: #fff;
+    padding: 7px 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.content-section .content-div .content-right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+}
+
+
+
+/* CSS de Community.html  */
+
+.header-community {
+    width: 100%;
+    height: 500px;
+
+    background-image:linear-gradient(rgba(10, 4, 6, 0.842), rgba(100,13,20) ), url(../img/header-community.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* CSS de Contact.html  */
+.header-contact {
+    width: 100%;
+    height: 500px;
+
+    background-image:linear-gradient(rgba(10, 4, 6, 0.842), rgba(100,13,20) ), url(../img/header-contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.map {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.nuestro-contacto {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.contacto-article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.nuestro-contacto .contacto-article .article-left div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nuestro-contacto .contacto-article .article-left div .fa {
+    font-size: 30px;
+    color: #dd3636;
+    margin: 5px;
+    margin-right: 25px;
+}
+
+.nuestro-contacto .contacto-article .article-left div span h4 {
+    color: rgba(0, 0, 0, 0.616);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nuestro-contacto .contacto-article .article-left div span p {
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.article-right {
+    grid-column: 2/4;
+}
+
+.nuestro-contacto .contacto-article .article-right form input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+
+.nuestro-contacto .contacto-article .article-right form textarea {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.nuestro-contacto .contacto-article .article-right form button {
+    margin: 10px 0;
+    color: #dd3636;
+    border: 1px solid #dd3636;
+}
+
+.boton-comentario {
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 12px;
+    font-weight: 700;
+
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Clase utilizada para todos los títulos de cada página */
+.title-pages {
+    color: white;
+
+    width: 50%;
+    padding-top: 14%;
+    font-size: 1cm;
+    text-align: center;
+    margin: auto;
+}
+/* Termina acá */
+
+.navbar_list .navbar_item a:hover {
+    text-decoration: 3px underline #dd3636;
+    transition: 1s;
+}
+
+/* :hover de a  */
+.linksection1:hover {
+    background-color: #dd3636;
+    color: #fff;
+    border-color: #dd3636;
+    transition: 1s;
+}
+
+.a-foro:hover {
+    background-color: #dd3636;
+    color: #fff;
+    border-color: #dd3636;
+    transition: 1s;
+}
+
+.contacto:hover {
+    background-color: #dd3636;
+    color: #fff;
+    border-color: #dd3636;
+    transition: 1s;
+}
+/* Termina aca a:hover  */
+
+/* :hover de buttons */
+.nuestro-contacto .contacto-article .article-right form button:hover {
+    background-color: #dd3636;
+    color: #fff;
+    border-color: #dd3636;
+    transition: 1s;
+}
+
+.content-section .content-div .content-left .box-comment .form-comment button:hover {
+    background-color: #dd3636;
+    color: #fff;
+    border-color: #dd3636;
+    transition: 1s;
+}
+/* termina aca buttons:hover  */
+
+.sectionthree_layer:hover {
+    bottom: 50%;
+    opacity: 1;
+    background-color: #ee10007a;
+}
+
+.sectionthree_layer:hover h3 {
+    bottom: 50%;
+    opacity: 1;
+}
+
+
+/* Bootstrap/@Media */
+
+@media (max-width: 575.98px) {
+    /* Media-about */
+    .header-about{
+        width: 523px;
+    }
+  
+  
+    .main-about {
+    display: block !important;
+    width: 500px;
+    text-align: center;
+    padding-left: 5%;
+  }
+
+  .main-about img {
+    width: 100%;
+  }
+
+  footer{
+    width: 500px;
+    padding-left: 5%;
+  }
+    /* Termina aca */
+    /* Media-Contact */
+    .header-contact{
+        width: 575px;
+    }
+    
+    .contacto-article{
+    display: block !important;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 19%;
+    }
+    /* Termina aca  */
+}
+
+@media (min-width: 576px ) and (max-width: 750px){
+    
+    /* @Media-About */
+    .header-about{
+        width: 750px;
+    }
+
+    .header-about h3{
+        font-size: 25px;
+        margin-top: 80px;
+    }
+
+    .main-about{
+    display: block !important;
+    width: 600px;
+    text-align: center;
+    padding-left: 5%;
+    }
+
+    .main-about img {
+        width: 100%;
+      }
+    /* Termina aca  */
+}
