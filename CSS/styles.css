@@ -135,7 +135,7 @@ main p {
 
 .articles2 {
   flex-basis: 31%;
-  background-image: linear-gradient(rgba(10, 4, 6, 0.842), rgb(221, 54, 54));
+  background-image: linear-gradient(rgba(10, 4, 6, 0.842), rgb(100, 13, 20));
   border-radius: 10px;
   padding: 20px 12px;
   transition: 0.5s;
@@ -251,8 +251,8 @@ footer p {
   text-decoration: none;
   font-size: large;
   font-weight: 600;
-  color: #dd3636;
-  border: 1px solid #dd3636;
+  color: rgb(221, 54, 54);
+  border: 1px solid rgb(221, 54, 54);
   padding: 10px;
 }
 
@@ -447,7 +447,7 @@ footer p {
 
 .nuestro-contacto .contacto-article .article-left div .fa {
   font-size: 30px;
-  color: #dd3636;
+  color: rgb(221, 54, 54);
   margin: 5px;
   margin-right: 25px;
 }
@@ -486,8 +486,8 @@ footer p {
 
 .nuestro-contacto .contacto-article .article-right form button {
   margin: 10px 0;
-  color: #dd3636;
-  border: 1px solid #dd3636;
+  color: rgb(221, 54, 54);
+  border: 1px solid rgb(221, 54, 54);
 }
 
 .boton-comentario {
@@ -521,7 +521,7 @@ footer p {
   background-color: #dd3636;
   color: #fff;
   border-color: #dd3636;
-  transition: 0, 5ms;
+  transition: 1s;
 }
 
 .a-foro:hover {
@@ -568,7 +568,6 @@ footer p {
 
 /* Bootstrap/@Media */
 @media (min-width: 450px) and (max-width: 510px) {
-  
   /* Index */
   .header {
     width: 100%;
@@ -603,7 +602,6 @@ footer p {
     display: inline-flex;
     font-weight: 600;
   }
-  
   /* About */
   .header-about {
     width: 100%;
@@ -629,7 +627,6 @@ footer p {
     width: 80%;
   }
   /* Termina aca  */
-  
   /* Community */
   .header-community {
     width: 100%;
@@ -654,7 +651,6 @@ footer p {
   .imgsection3 {
     display: inline-flex;
   }
-  
   /* Contacto */
   .contacto-article {
     display: block;
@@ -663,7 +659,6 @@ footer p {
     padding-top: 40%;
     font-size: 20px;
   }
-  
   /* Contenido */
   .content-div {
     display: block;

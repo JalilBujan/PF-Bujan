@@ -1,6 +1,7 @@
 /* Variables */
 $title-position: 40%;
 $title-size: 20px;
+$color-pagina: rgba(221, 54, 54);
 
 *{
     margin: 0%;
@@ -281,8 +282,8 @@ footer p {
         
     font-size: large;
     font-weight: 600;
-    color: #dd3636;
-    border: 1px solid #dd3636;
+    color: $color-pagina;
+    border: 1px solid $color-pagina;
     padding: 10px;
 }
 
@@ -490,7 +491,7 @@ footer p {
 
 .nuestro-contacto .contacto-article .article-left div .fa {
     font-size: 30px;
-    color: #dd3636;
+    color: $color-pagina;
     margin: 5px;
     margin-right: 25px;
 }
@@ -530,8 +531,8 @@ footer p {
 
 .nuestro-contacto .contacto-article .article-right form button {
     margin: 10px 0;
-    color: #dd3636;
-    border: 1px solid #dd3636;
+    color: $color-pagina;
+    border: 1px solid $color-pagina;
 }
 
 .boton-comentario {
@@ -567,7 +568,7 @@ footer p {
     background-color: #dd3636;
     color: #fff;
     border-color: #dd3636;
-    transition: 0,5ms;
+    transition: 1s;
 }
 
 .a-foro:hover {
