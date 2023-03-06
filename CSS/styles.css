@@ -568,6 +568,7 @@ footer p {
 
 /* Bootstrap/@Media */
 @media (min-width: 450px) and (max-width: 510px) {
+  
   /* Index */
   .header {
     width: 100%;
@@ -602,6 +603,7 @@ footer p {
     display: inline-flex;
     font-weight: 600;
   }
+  
   /* About */
   .header-about {
     width: 100%;
@@ -627,6 +629,7 @@ footer p {
     width: 80%;
   }
   /* Termina aca  */
+  
   /* Community */
   .header-community {
     width: 100%;
@@ -651,6 +654,7 @@ footer p {
   .imgsection3 {
     display: inline-flex;
   }
+  
   /* Contacto */
   .contacto-article {
     display: block;
@@ -659,6 +663,7 @@ footer p {
     padding-top: 40%;
     font-size: 20px;
   }
+  
   /* Contenido */
   .content-div {
     display: block;
